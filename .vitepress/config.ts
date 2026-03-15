@@ -8,11 +8,11 @@ export default defineConfig({
   lastUpdated: true,
 
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/icons/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/logo.png' }],
   ],
 
   themeConfig: {
-    logo: '/icons/logo.svg',
+    logo: '/logo.png',
     siteTitle: 'SGLang 源码解析',
 
     nav: [
